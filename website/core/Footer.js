@@ -1,0 +1,26 @@
+/**
+ * Copyright (c) 2018 jamcha (jamcha.aa@gmail.com), (c) 2017-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license.
+ */
+
+const React = require('react');
+
+class Footer extends React.Component {
+    docUrl(doc, language) {
+        const baseUrl = this.props.config.baseUrl;
+        return baseUrl + 'Docusaurus-template/docs/' + (language ? language + '/' : '') + doc;
+    }
+
+    pageUrl(doc, language) {
+        const baseUrl = this.props.config.baseUrl;
+        return baseUrl + (language ? language + '/' : '') + doc;
+    }
+
+    render() {
+        const currentYear = new Date().getFullYear();
+        return ([]);
+    }
+}
+
+module.exports = Footer;
