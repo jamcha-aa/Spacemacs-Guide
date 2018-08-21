@@ -1,0 +1,12 @@
+#+OPTIONS: toc:nil
+#+OPTIONS: \n:t
+#+OPTIONS: -:nil
+#+OPTIONS: ^:{}
+
+---
+id: 01
+title: タイトルはここに入れる
+sidebar_label: サイドバーのタイトルはここに入れる
+---
+
+あああああ
