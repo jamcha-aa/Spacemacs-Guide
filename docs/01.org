@@ -1,12 +1,16 @@
 #+OPTIONS: toc:nil
-#+OPTIONS: \n:t
 #+OPTIONS: -:nil
 #+OPTIONS: ^:{}
 
 ---
 id: 01
-title: タイトルはここに入れる
-sidebar_label: サイドバーのタイトルはここに入れる
+title: 01 - 脳をいじられる気分
+sidebar_label: 01 - 脳をいじられる気分
 ---
 
-あああああ
+
+  <br>
+  <br>
+  (c) 2018 jamcha (jamcha.aa@gmail.com).
+
+  ![[https://i.creativecommons.org/l/by-sa/4.0/88x31.png][cc by-sa]]
