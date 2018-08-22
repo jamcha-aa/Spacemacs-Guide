@@ -21,7 +21,7 @@ const users = [
 
 const siteConfig = {
   title: 'Spacemacs の ささやき' /* title for your website */,
-    tagline: 'Spacemacs を導入する試み。 (準備中)',
+    tagline: 'Spacemacs を導入する試み。',
   url: 'https://jamcha-aa.github.io/Spacemacs-Guide/' /* your website url */,
   baseUrl: '/Spacemacs-Guide/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
