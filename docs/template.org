@@ -1,0 +1,16 @@
+#+OPTIONS: toc:nil
+#+OPTIONS: -:nil
+#+OPTIONS: ^:{}
+
+---
+id: 
+title: 
+sidebar_label: 
+---
+
+
+  <br>
+  <br>
+  (c) 2018 jamcha (jamcha.aa@gmail.com).
+
+  ![[https://i.creativecommons.org/l/by-sa/4.0/88x31.png][cc by-sa]]
