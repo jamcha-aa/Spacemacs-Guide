@@ -87,78 +87,43 @@ class HomeSplash extends React.Component {
   }
 }
 
-const Block = props => (
-  <Container
-    padding={['bottom', 'top']}
-    id={props.id}
-    background={props.background}>
-    <GridBlock align="center" contents={props.children} layout={props.layout} />
-  </Container>
-);
-
-const Features = props => (
-  <Block layout="fourColumn">
-    {[
-      {
-          content: 'スマホの場合は画面左上の「×」で目次の表示/非表示ができます。',
-      },
-    ]}
-  </Block>
-);
-
-const FeatureCallout = props => ([]);
-
-const LearnHow = props => ([]);
-
-const TryOut = props => ([]);
-
-const Description = props => ([]);
-
-const Showcase = props => {
-  if ((siteConfig.users || []).length === 0) {
-    return null;
-  }
-  const showcase = siteConfig.users
-    .filter(user => {
-      return user.pinned;
-    })
-    .map((user, i) => {
-      return (
-        <a href={user.infoLink} key={i}>
-          <img src={user.image} alt={user.caption} title={user.caption} />
-        </a>
-      );
-    });
-
-  return (
-    <div className="productShowcaseSection paddingBottom">
-      <div className="more-users">
-          <a className="button" href={'https://jamcha-aa.github.io/About/'}>
-          作品一覧
-        </a>
-          <p> (c) 2018 jamcha (jamcha.aa@gmail.com)</p>
-      </div>
-    </div>
-  );
-};
 
 class Index extends React.Component {
   render() {
     let language = this.props.language || '';
 
-    return (
-      <div>
-        <HomeSplash language={language} />
-        <div className="mainContainer">
-          <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase language={language} />
-        </div>
-      </div>
-    );
+      return (
+              <div>
+              <HomeSplash language={language} />
+              <div className="mainContainer">
+              <div className="productShowcaseSection paddingbottom">
+              <MarkdownBlock>{`
+スマホの場合は画面左上の「×」で目次の表示/非表示ができます。
+`}</MarkdownBlock>
+              <p></p>
+              <a className="button" href={`https://jamcha-aa.github.io/About/`}> 作品一覧 </a>
+              <p></p>
+              <MarkdownBlock>{`
+Copyright (c) 2018 jamcha (jamcha.aa@gmail.com).
+
+`}</MarkdownBlock>
+              </div>
+              </div>
+              <Container
+          padding={['bottom', 'top']}
+          background="light"
+          className="myCustomClass">
+              <MarkdownBlock>{`
+この物語はフィクションであり，実在の人物・ソフトウェア・団体とは一切関係ありません。
+
+This novel is licensed under the [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed)
+
+![cc by-sa](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
+`}</MarkdownBlock>
+              </Container>
+              </div>
+     );
   }
 }
 
