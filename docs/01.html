@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>01 - いじわるな気分 · Spacemacs の ささやき</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="![spacemacs-logo](https://raw.githubusercontent.com/nashamri/spacemacs-logo/master/spacemacs-logo.svg?sanitize=true)"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="01 - いじわるな気分 · Spacemacs の ささやき"/><meta property="og:type" content="website"/><meta property="og:url" content="https://jamcha-aa.github.io/Spacemacs-Guide//Spacemacs-Guide/index.html"/><meta property="og:description" content="![spacemacs-logo](https://raw.githubusercontent.com/nashamri/spacemacs-logo/master/spacemacs-logo.svg?sanitize=true)"/><meta property="og:image" content="https://jamcha-aa.github.io/Spacemacs-Guide//Spacemacs-Guide/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://jamcha-aa.github.io/Spacemacs-Guide//Spacemacs-Guide/img/docusaurus.png"/><link rel="shortcut icon" href="/Spacemacs-Guide/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener("DOMContentLoaded", function(){
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><link rel="stylesheet" href="/Spacemacs-Guide/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/Spacemacs-Guide/"><img class="logo" src="/Spacemacs-Guide/img/jamcha.svg" alt="Spacemacs の ささやき"/><h2 class="headerTitleWithLogo">Spacemacs の ささやき</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span> </span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle"> </h3><ul><li class="navListItem navListItemActive"><a class="navItem" href="/Spacemacs-Guide/docs/01.html">01 - いじわるな気分</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">01 - いじわるな気分</h1></header><article><div><span><p><img src="https://raw.githubusercontent.com/nashamri/spacemacs-logo/master/spacemacs-logo.svg?sanitize=true" alt="spacemacs-logo"></p>
+<p><br>
+「私たちが見知らぬ惑星に降り立ってから数日がたった」<br>
+「ここは地球です」<br>
+「その地表は紫色で，組成は不明」<br>
+「Emacs Lisp です」<br>
+「空には土星の環を彷彿とさせる帯がはしり」<br>
+「アイコンの模様です」<br>
+「生物や水の痕跡さえもない」<br>
+「ソフトウェアですから」<br>
+「果たして私たちは生きてここから脱出することはできるのだろうか？」<br>
+「ヘルプが必要ですか？ <strong>SPC h</strong> を入力してください」</p>
+<p>「もう!」私が机に手をつき，ThinkPad をにらむ。「せっかく雰囲気が盛り上がってきたのに，いちいち現実に引き戻さないでよ」「妄想に逃げても操作は上達しませんが」「そんなのわかってるよ。けどさぁ…」</p>
+<p>ThinkPad は『<a href="https://jamcha-aa.github.io/Emacs-tutorial/">Emacs のチュートリアルをプレイ。</a>』で加わった私のアシスタントだ。はじめは無口で，黙って私の作業をこなしていた。だが私があまりにも頼りないので，次第に手取り足取り私を助けるようになった。ふだんは冷たい物言いばかりするものの，私が長時間作業を続けているときに休憩を勧めてきたり，栄養が偏らないように食事メニューを提案してくれたりする。かわいい。</p>
+<p>そんな私の ThinkPad は EeePC に比べて圧倒的に高いマシンスペックを誇る。誇ってはいないけれども，重い処理でも難なくこなし，それを喜ぶ私に「何ですか？にやにやして気味が悪いです」と涼しい顔でいる。私は誘惑にかられた。話題の『<a href="https://spacemacs.org/">Spacemacs</a>』を試したくなったのである。</p>
+<p>Spacemacs。その画面を初めて見た感想は『かっこいい』であった。だが EeePC では重くてまともに動かないだろうとも思った。しかもこれまでの Emacs と操作性が全く違うのもこわい。インストールも難しそう。そんなわけで，Spacemacs に対してはあこがれと不安が入り交じった気持ちをずっと抱いてきた。</p>
+<p>ところが状況は一変した。ThinkPad があまりに平然と作業をこなすので，意地悪をしたくなったのである。Spacemacs を入れたらどれだけ動作が重くなるだろう。軽快に動けばさすが ThinkPad だし，もたもたすればからかってやれる。まあ，重くなって実際に困るのは私なのだが，それよりも ThinkPad を困らせたかったのだ。</p>
+<p><br>
+「ねえ，Spacemacs 試してみない？」「Spacemacs …」ThinkPad は瞬時に検索し，公式ページを表示する。私の悪意も知らず，健気なことだ。</p>
+<p>「こちらでよろしいですか？」</p>
+<p><br>
+<img src="./assets/officialSS.png" alt="official screenshot"></p>
+<p><br>
+「ありがと」私はお礼を言ってホームページを眺める。かっこいい。spacemacs をカッコで閉じているのは Lisp を表現しているのだろう。なお，このスクリーンショットが Spacemacs をインストールした環境で撮影されているという点は見逃していただきたい。</p>
+<p>私はインストール方法を確認するため &quot;INSTALL&quot; をクリックした。</p>
+<p><br></p>
+<pre><code class="hljs">git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+</code></pre>
+<p><br>
+「!」驚いた。「これ，Emacs の設定ファイルなんだ」</p>
+<p>Spacemacs は <a href="http://gnupack.osdn.jp/docs/latest/UsersGuide.html">gnupack</a>のようにアプリケーションとして配布されているとか，もしくはソースからコンパイルするものとばかり思い込んでいた。まさか Emacs の設定ファイルだったとは。</p>
+<p>私はこれまで使っていた.emacs.d ディレクトリを bak.emacs にリネームする。ターミナルでコマンドを打ち，ダウンロードが終わるのを待ってから Emacs を起動した。</p>
+<p><br></p>
+<pre><code class="hljs">emacs
+</code></pre>
+<p><br>
+起動した Emacs に次々とパッケージがダウンロードされてゆく。まるで OS のインストール画面を眺めているようだ。</p>
+<p>やがて準備が完了したことを示すように，クイックヘルプが表示される。新たな星に足を踏み出す気分だった。</p>
+<p><br>
+<img src="./assets/startup.png" alt="startup screen"></p>
+<p><br>
+<br>
+(c) 2018 jamcha (<a href="mailto:jamcha.aa@gmail.com">jamcha.aa@gmail.com</a>).</p>
+<p><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="cc by-sa"></p>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"></nav></div></div></body></html>
