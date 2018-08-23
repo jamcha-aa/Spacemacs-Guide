@@ -4,4 +4,5 @@
 <url> <loc>https://jamcha-aa.github.io/Spacemacs-Guide/index.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://jamcha-aa.github.io/Spacemacs-Guide/en/index.html" /> </url>
 <url> <loc>https://jamcha-aa.github.io/Spacemacs-Guide/users.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://jamcha-aa.github.io/Spacemacs-Guide/en/users.html" /> </url>
 <url> <loc>https://jamcha-aa.github.io/Spacemacs-Guide/docs/01.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://jamcha-aa.github.io/Spacemacs-Guide/docs/01.html" /> </url>
+<url> <loc>https://jamcha-aa.github.io/Spacemacs-Guide/docs/02.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://jamcha-aa.github.io/Spacemacs-Guide/docs/02.html" /> </url>
 </urlset>
