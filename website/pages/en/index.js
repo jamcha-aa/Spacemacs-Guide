@@ -99,6 +99,8 @@ class Index extends React.Component {
               <div className="productShowcaseSection paddingbottom">
               <MarkdownBlock>{`
 スマホの場合は画面左上の「×」で目次の表示/非表示ができます。
+
+Spacemacsの設定方法だけ知りたい方は [05 - 惑星防備録](https://jamcha-aa.github.io/Spacemacs-Guide/docs/05.html) をご覧ください。
 `}</MarkdownBlock>
               <p></p>
               <a className="button" href={`https://jamcha-aa.github.io/About/`}> 作品一覧 </a>
