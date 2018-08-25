@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>02 - 脳をいじられる気分 · Spacemacs の ささやき</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="「おかしい」私が Spacemacs を操作しながらうめく。だが私が苦しそうな顔をしながらパソコンを操作するのはいつものことなので，ThinkPad は何も言わない。"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="02 - 脳をいじられる気分 · Spacemacs の ささやき"/><meta property="og:type" content="website"/><meta property="og:url" content="https://jamcha-aa.github.io/Spacemacs-Guide//Spacemacs-Guide/index.html"/><meta property="og:description" content="「おかしい」私が Spacemacs を操作しながらうめく。だが私が苦しそうな顔をしながらパソコンを操作するのはいつものことなので，ThinkPad は何も言わない。"/><meta property="og:image" content="https://jamcha-aa.github.io/Spacemacs-Guide//Spacemacs-Guide/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://jamcha-aa.github.io/Spacemacs-Guide//Spacemacs-Guide/img/docusaurus.png"/><link rel="shortcut icon" href="/Spacemacs-Guide/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener("DOMContentLoaded", function(){
           addBackToTop(
             {"zIndex":100}
           )
@@ -20,10 +20,6 @@
                 var toggler = document.querySelector(togglerSelector);
                 var target = document.querySelector(targetSelector);
 
-                if (!toggler) {
-                  return;
-                }
-
                 toggler.onclick = function(event) {
                   event.preventDefault();
 
@@ -33,17 +29,17 @@
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">02 - 脳をいじられる気分</h1></header><article><div><span><p>「おかしい」私が Spacemacs を操作しながらうめく。だが私が苦しそうな顔をしながらパソコンを操作するのはいつものことなので，ThinkPad は何も言わない。</p>
 <p>「おかしいな。もう少し手こずると思っていたんだけど」</p>
-<p>私は初期設定で Vim → フルパッケージ → helm と選択し，後に.spacemacs を開いて</p>
+<p>私は初期設定で Vim → フルパッケージ → helm と選択し，次に.spacemacs を開いて</p>
 <p><br></p>
 <pre><code class="hljs">dotspacemacs-editing-style 'hybrid
 </code></pre>
 <p><br>
-と修正して使っていた。hybrid は挿入モードが Emacs の操作，それ以外のノーマルモードやビジュアルモードは Vim の操作になる。</p>
-<p>hybrid は Emacs の操作と Vim の操作が必要になるので，激しく混乱する…はずだった。以前，拡張ローマ字入力 AZIK を習得したときのように，脳をいじられる気分を散々味わうことになるだろう…と覚悟をきめていた。脳をいじられる気分というのは，画面から透明な管がニュッと伸び，網膜を通って脳をくちゅくちゅされるような気分のことである。身体はそれに抗うように時折けいれんする。まるで，古い回路が破壊され，新たに作られたタンパク質が神経回路をメリメリと再構成してゆく，その音が聞こえるようだ。そうして何度も繰り返すなかで過去の記憶がじわじわと書き換えられ，新しい自分になる。</p>
-<p>ところが今回は違った。はじめの二日ほどは Spacemacs 専用のコマンド (SPC b b = C-x b など) に戸惑ったものの，いまや<a href="https://github.com/ch11ng/exwm/wiki">EXWM</a>上でほとんどあたりまえのように使えてしまっている。なんてこった。</p>
-<p>「これじゃ企画倒れだよ!」</p>
-<p>私が ThinkPad の前で頭を抱える。目的さえ知らされていない ThinkPad は，私が苦労なく使えていることの何が問題なのかわからない。 ああ， <strong>C-f (一文字進む)</strong> と <strong>C-f (一画面進む)</strong> の違いで頭がおかしくなると思っていたのに。</p>
-<p>おそろしや Spacemacs。公式ページで <a href="http://spacemacs.org/">&quot;it's Emacs <em>and</em> Vim!&quot;</a> と紹介されていて，どれほど複雑なソフトウェアか戦慄していたのに，いざ使いはじめてみれば，Vim 風に操作できるブラウザに，Emacs 風に編集できるテキストエリアをあわせもった感じですんなりと馴染む。閲覧・編集の対象は表示できるものすべて。hybrid に関していえば，<a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=ja">vimium</a> を入れた chrome と <a href="https://github.com/zachcurry/emacs-anywhere">emacs-anywhere</a> を合わせたような感じだろうか。emacs-anywhere と違うのは，Vim のスタイルでテキスト入力も可能なことである。</p>
+と修正して使っていた。hybrid は挿入モードが Emacs の操作，それ以外のノーマルモードやビジュアルモードが Vim の操作になる。</p>
+<p>hybrid は Emacs の操作と Vim の操作が必要になるので，激しく混乱する…はずだった。以前，拡張ローマ字入力 AZIK を習得したときのように，脳をいじられる気分を散々味わうことになるだろう…と覚悟をきめていた。脳をいじられる気分というのは，画面から透明な管がニュッと伸び，網膜を通って脳をかきまわされる気分のことである。身体はそれに抗うように時折けいれんする。まるで，古い回路が破壊され，新たに作られたタンパク質が神経回路をメリメリと再構成してゆく，その音が聞こえるようだ。そうして何度も繰り返すなかで過去の記憶がじわじわと書き換えられ，新しい自分になる。</p>
+<p>ところが今回は違った。はじめの二日ほどは Spacemacs 専用のコマンド ( <strong>SPC b b</strong> = <strong>C-x b</strong> など) に戸惑ったものの，いまや<a href="https://github.com/ch11ng/exwm/wiki">EXWM</a>上でほとんどあたりまえのように使えてしまっている。なんてこった!</p>
+<p>「これじゃ企画倒れだよ…」</p>
+<p>私が ThinkPad の前で頭を抱える。目的さえ知らされていない ThinkPad は，私が苦労なく使えていることの何が問題なのかわからない。 ああ， <strong>C-f (一文字進む)</strong> と <strong>C-f (一画面進む)</strong> の違いで頭がおかしくなると思っていたのに!</p>
+<p>おそろしや Spacemacs。公式ページで <a href="http://spacemacs.org/">&quot;it's Emacs <em>and</em> Vim!&quot;</a> と紹介されていて，どれほど複雑なソフトウェアか戦慄していたのに，いざ使いはじめてみれば，Vim 風に操作できるブラウザに，Emacs 風に編集できるテキストエリアのついたソフトウェア，といった印象。違和感なく，すんなりと馴染む。hybrid に関していえば，<a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=ja">vimium</a> を入れた chrome と <a href="https://github.com/zachcurry/emacs-anywhere">emacs-anywhere</a> を合わせたような感じだろうか。emacs-anywhere と違うのは，Vim のスタイルでテキスト入力も可能なことである。そしてブラウザと違うのは，閲覧や編集の対象は表示できるものすべてという点だ。</p>
 <p>「この紫色の惑星から脱出するつもりだったのだが，このままずっと暮らしてしまいそうだ。私は母星への救難信号を止め，大の字に寝そべると，どこまでも深く続く星空をながめていた」</p>
 <p><br>
 机に突っ伏していた私は，突然むくりと起き出し，ThinkPad にたずねた。「私が Spacemacs インストールしてからのログ，残ってる？」</p>

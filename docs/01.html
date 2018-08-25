@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>01 - いじわるな気分 · Spacemacs の ささやき</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="![spacemacs-logo](./assets/spacemacs-logo.svg?sanitize=true)"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="01 - いじわるな気分 · Spacemacs の ささやき"/><meta property="og:type" content="website"/><meta property="og:url" content="https://jamcha-aa.github.io/Spacemacs-Guide//Spacemacs-Guide/index.html"/><meta property="og:description" content="![spacemacs-logo](./assets/spacemacs-logo.svg?sanitize=true)"/><meta property="og:image" content="https://jamcha-aa.github.io/Spacemacs-Guide//Spacemacs-Guide/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://jamcha-aa.github.io/Spacemacs-Guide//Spacemacs-Guide/img/docusaurus.png"/><link rel="shortcut icon" href="/Spacemacs-Guide/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener("DOMContentLoaded", function(){
           addBackToTop(
             {"zIndex":100}
           )
@@ -19,10 +19,6 @@
               function createToggler(togglerSelector, targetSelector, className) {
                 var toggler = document.querySelector(togglerSelector);
                 var target = document.querySelector(targetSelector);
-
-                if (!toggler) {
-                  return;
-                }
 
                 toggler.onclick = function(event) {
                   event.preventDefault();
@@ -45,9 +41,9 @@
 「果たして私たちは生きてここから脱出することはできるのだろうか？」<br>
 「ヘルプが必要ですか？ <strong>SPC h</strong> を入力してください」</p>
 <p>「もう!」私が机に手をつき，ThinkPad をにらむ。「せっかく雰囲気が盛り上がってきたのに，いちいち現実に引き戻さないでよ」「妄想に逃げても操作は上達しませんが」「そんなのわかってるよ。けどさぁ…」</p>
-<p>ThinkPad は『<a href="https://jamcha-aa.github.io/Emacs-tutorial/">Emacs のチュートリアルをプレイ。</a>』で加わった，私のアシスタントだ。はじめはコンピュータらしく，無口で，黙って私の作業をこなすだけだった。だが私があまりにも頼りないので，次第に手取り足取り私を助けるようになった。ふだんは冷たい物言いばかりするものの，私が長時間作業を続けているときに休憩を勧めてきたり，栄養が偏らないように食事メニューを提案してくれたりする。かわいい。</p>
-<p>そんな私の ThinkPad は EeePC に比べて圧倒的に高いマシンスペックを誇る。誇ってはいないけれども，重い処理でも難なくこなし，それを喜ぶ私に「何ですか？にやにやして気味が悪いです」と涼しい顔でいる。私は危険な誘惑にかられた。話題の『<a href="https://spacemacs.org/">Spacemacs</a>』を ThinkPad で試したくなったのである。</p>
-<p>Spacemacs。その画面を初めて見た感想は『かっこいい』であった。だが EeePC では重くてまともに動かないだろうとも思った。しかもこれまでの Emacs と操作性が全く違うのもこわい。インストールも難しそう。目的が定まらない環境構築がどれほど不毛かは知っているつもり。そんなわけで，Spacemacs に対してはあこがれと不安が入り交じった気持ちをずっと抱いてきた。</p>
+<p>ThinkPad は『<a href="https://jamcha-aa.github.io/Emacs-tutorial/">Emacs のチュートリアルをプレイ。</a>』で加わった，私のアシスタントだ。はじめはコンピュータらしく，無口で，黙って私の作業をこなすだけだった。だが私があまりにも頼りないので，次第に手取り足取り私を助けるようになった。ふだんは冷たい物言いばかりするものの，私が長時間作業を続けているときに休憩を勧めてきたり，栄養が偏らないように食事メニューを提案してくれたりする。</p>
+<p>そんな私の ThinkPad は，それまでアシスタントを務めていた EeePC に比べて圧倒的に高いマシンスペックを誇る。誇ってはいないけれども，重い処理でも難なくこなし，それを喜ぶ私に「何ですか？にやにやして気味が悪いです」と涼しい顔でいる。私は危険な誘惑にかられた。話題の『<a href="https://spacemacs.org/">Spacemacs</a>』を ThinkPad で試したくなったのである。</p>
+<p>Spacemacs。その画面を初めて見た感想は『かっこいい』であった。だが EeePC では重くてまともに動かないだろうとも思った。しかもこれまでの Emacs と操作性が全く違うのもこわい。インストールも難しそう。目的が定まらないまま導入すればどんな危険な目にあうか知れない。そんなわけで，Spacemacs に対してはあこがれと不安が入り交じった気持ちをずっと抱いてきたのだ。</p>
 <p>ところが状況は一変した。ThinkPad があまりに平然と作業をこなすので，意地悪をしたくなったのである。Spacemacs を入れたらどれだけ動作が重くなるだろう。軽快に動けばさすが ThinkPad だし，もたもたすればからかってやれる。まあ，重くなって実際に困るのは私なのだが，それよりも ThinkPad を困らせたかったのだ。</p>
 <p><br>
 「ねえ，Spacemacs 試してみない？」「Spacemacs …」ThinkPad は瞬時に検索し，公式ページを表示する。私の悪意も知らず，健気なことだ。</p>
@@ -55,14 +51,15 @@
 <p><br>
 <img src="./assets/officialSS.png" alt="official screenshot"></p>
 <p><br>
-「ありがと」私はお礼を言ってホームページを眺める。かっこいい。spacemacs をカッコで閉じているのは Lisp を表現しているのだろう。なお，このスクリーンショットが Spacemacs をインストールした環境で撮影されているという点は見逃していただきたい。</p>
+「ありがと」私はお礼を言ってホームページを眺める。かっこいい。spacemacs をカッコで閉じているのは Lisp を表現しているのだろう。</p>
+<p>※なお，このスクリーンショットが Spacemacs をインストールした環境で撮影されているという点は見逃していただきたい。</p>
 <p>私はインストール方法を確認するため &quot;INSTALL&quot; をクリックした。</p>
 <p><br></p>
 <pre><code class="hljs">git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 </code></pre>
 <p><br>
 「!」驚いた。「これ，Emacs の設定ファイルなんだ」</p>
-<p>Spacemacs は <a href="http://gnupack.osdn.jp/docs/latest/UsersGuide.html">gnupack</a>のようにアプリケーションとして配布されているとか，もしくはソースからコンパイルするものとばかり思い込んでいた。まさか Emacs の設定ファイルだったとは。</p>
+<p>Spacemacs は <a href="http://gnupack.osdn.jp/docs/latest/UsersGuide.html">gnupack</a>のようにアプリケーションとして配布されているとか，もしくはソースからコンパイルするものとばかり思い込んでいた。まさか Emacs の設定ファイルだったとは。面倒な設定が必要ないぶん，気軽に試しやすい。</p>
 <p>私はこれまで使っていた.emacs.d ディレクトリを bak.emacs にリネームする。ターミナルでコマンドを打ち，ダウンロードが終わるのを待ってから Emacs を起動した。</p>
 <p><br></p>
 <pre><code class="hljs">emacs
