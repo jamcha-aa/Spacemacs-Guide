@@ -10,6 +10,8 @@ sidebar_label: 01 - いじわるな気分
 
   ![[https://raw.githubusercontent.com/nashamri/spacemacs-logo/master/spacemacs-logo.svg?sanitize=true][spacemacs-logo]]
 
+  (c) [[https://github.com/nashamri/spacemacs-logo][nashamri]]
+
   <br>
   「私たちが見知らぬ惑星に降り立ってから数日がたった」  
   「ここは地球です」  
