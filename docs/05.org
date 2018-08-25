@@ -22,23 +22,23 @@ sidebar_label: 05 - 惑星防備録
 
    「インストールの方法については前にもやったんだけど」「ほう」「いちおう復習ね」
 
-   <br>
    #+BEGIN_SRC 
    git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
    #+END_SRC
 
+   <br>
    「開発版を使いたい野心的な人はこっち↓」「開発版は何が違うんだ？」「最新を追いつづけたい人。 [[https://www.archlinux.org/][Arch Linux]] が好きな人とか，Vim のビルドを日課にしてるような人とか」
 
-   <br>
    #+BEGIN_SRC 
    git clone -b develop https://github.com/syl20bnr/spacemacs ~/.emacs.d
    #+END_SRC
 
+   <br>
    「もしコマンドの意味がわからなかったら，ダウンロードしたファイルを解凍してフォルダ名を ".emacs.d" にすれば良いです」「これだけか？」「うん」「Mac や Windows は」「Mac もこれでいい。Windows は [[https://www49.atwiki.jp/ntemacs/pages/69.html][Windows Subsystem for Linux]] を先に学んだほうがいい」「Spacemacs は」「先に学んだほうがいい」「Sp」「先に学んだほうがいい」「どうしても説明したくないんだな…」
 
 ** .emacs.d/private/japanese/packages.el 
 
-   「なんと!」「ん？」「Spacemacs には!」「おう」「[[https://github.com/kenjimyzk/spacemacs-japanese][日本語用の設定]]を作成された方がおられます!」「おおー!」「ぱんぱかぱーん!」「いやはや，素晴らしい」「package.el をダウンロードしたら，.emacs.d/private 内に japanese フォルダを作って入れてください。あと開発版の場合は下の configuration-layers に書くだけでインストールしてくれる」
+   「なんと!」「いきなり大声を出すな」「Spacemacs には!」「おう」「[[https://github.com/kenjimyzk/spacemacs-japanese][日本語用の設定]]を作成された方がおられます!」「おおー!」「ぱんぱかぱーん!」「いやはや，素晴らしい」「package.el をダウンロードしたら，.emacs.d/private 内に japanese フォルダを作って入れてください。あと開発版の場合は下の configuration-layers に書くだけでインストールしてくれる」
 
    <br>
    「あ，ひとつ注意!」「何だ」「migemo の場所は使ってる Linux によって違う」「migemo か…」EeePC は [[https://jamcha-aa.github.io/Emacs-tutorial/18.html][過去の理不尽な仕打ち]] を思い出し，声が低くなる。
@@ -116,7 +116,7 @@ sidebar_label: 05 - 惑星防備録
 
    「そうか。…」
 
-   EeePC が突然黙りこんだ。その様子から，意図を察した私は知らないふりをした。やや時間があって，我慢できなくなったように EeePC が言う。
+   突然 EeePC が黙りこんだ。その様子から意図を察した私は，どうしたの，とは聞かない。やや時間があって，我慢できなくなったように EeePC が言う。
 
    「私に入れる予定はないか…？」
 
@@ -124,10 +124,11 @@ sidebar_label: 05 - 惑星防備録
 
    「そうか…」
 
-   珍しくしおらしい様子の EeePC に私は吹きだす。「ふふ，冗談だよ」「え？」「実は君のためにいろいろ調べておいたんだ」「そうなのか？」「うん。[[https://www.linuxmint.com/download_lmde.php][Linux Mint Debian Edition 3]]の正式版がリリースされたら試してみようね」「それ，君が以前，私に入れようとしていたやつじゃないか」「そう。EXWM を使う予定だから，見た目はこれまでと変わらないと思うけど」
+   珍しくしおらしい姿の EeePC。思わず私は吹きだす。「ふふ，冗談だよ」「え？」「実は君のためにいろいろ調べておいたんだ」「そうなのか？」「うん。[[https://www.linuxmint.com/download_lmde.php][Linux Mint Debian Edition 3]]の正式版がリリースされたら試してみようね」「それ，君が以前，私に入れようとしていたやつじゃないか」「そう。EXWM を使う予定だから，見た目はこれまでと変わらないと思うけど」
 
-   私が今でも気にかけていること。そのことに EeePC は喜びを隠しきれずに言う。「…ありがとう。私のために。うれしいよ」
+   私が今でも気にかけていること。古いマシンだからって置き去りにしていないこと。そのことに EeePC は喜びを隠しきれずに言う。「…ありがとう。私のために。うれしいよ」
 
+   <br>
    そのとき，ThinkPad の画面が灯った。ターミナルに出力されているのは…
 
    「Docusaurus がまた攻めてきた!」「なにっ」「すぐに ThinkPad を元に戻さなきゃ…」
