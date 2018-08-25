@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>05 - 惑星防備録 · Spacemacs の ささやき</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="「ねえ，作品のタイトルなんだけど」"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="05 - 惑星防備録 · Spacemacs の ささやき"/><meta property="og:type" content="website"/><meta property="og:url" content="https://jamcha-aa.github.io/Spacemacs-Guide//Spacemacs-Guide/index.html"/><meta property="og:description" content="「ねえ，作品のタイトルなんだけど」"/><meta property="og:image" content="https://jamcha-aa.github.io/Spacemacs-Guide//Spacemacs-Guide/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://jamcha-aa.github.io/Spacemacs-Guide//Spacemacs-Guide/img/docusaurus.png"/><link rel="shortcut icon" href="/Spacemacs-Guide/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><link rel="stylesheet" href="/Spacemacs-Guide/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/Spacemacs-Guide/"><img class="logo" src="/Spacemacs-Guide/img/jamcha.svg" alt="Spacemacs の ささやき"/><h2 class="headerTitleWithLogo">Spacemacs の ささやき</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span> </span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle"> </h3><ul><li class="navListItem"><a class="navItem" href="/Spacemacs-Guide/docs/01.html">01 - いじわるな気分</a></li><li class="navListItem"><a class="navItem" href="/Spacemacs-Guide/docs/02.html">02 - 脳をいじられる気分</a></li><li class="navListItem"><a class="navItem" href="/Spacemacs-Guide/docs/03.html">03 - いじる気分</a></li><li class="navListItem"><a class="navItem" href="/Spacemacs-Guide/docs/04.html">04 - 手術が終わるまで待つ気分</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/Spacemacs-Guide/docs/05.html">05 - 惑星防備録</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">05 - 惑星防備録</h1></header><article><div><span><p>「ねえ，作品のタイトルなんだけど」</p>
+<p>私がログを読み直しながら EeePC に話しかける。「何だ」「『アナスタシア美貌録』と，『惑星防備録』，どっちがいいと思う？」「どっちも却下だ。なんだアナスタシアって」「主人公の名前」「そんな名前だったか？そもそも自分を名乗ったシーンなんかなかったはずだが」「いま思いついた」「…」</p>
+<p>私の無計画さに EeePC はため息をつく。「…はぁ。惑星防備録は？何から守るんだ」「この星に<a href="https://docusaurus.io/">Docusaurus</a>っていう怪獣が襲来してくるから，Spacemacs を設定して防備を固めなきゃいけないの」「ん？Docusaurus はソフトウェアだろ？」「怪獣」「どこが」「Javascript だから」「どうして Javascript だと怪獣になるんだ」「私が Javascript 書いたことないから」「…それは大変だ」「しかもすでに襲来した」「おい。手遅れじゃないか。被害は」「とりあえず撃退した」「おお」「でも私の寿命を半分くらい持っていかれた」</p>
+<p>EeePC の天を仰ぐ様子が伝わってくる。「君はプログラム言語を学ぶたびに寿命が縮んでるな」「R と Python は寿命が伸びたよ」「私が知っているだけでも君の寿命は残り数年くらいのような」「私が長命なエルフ族だったらなんとかなるかもしれない」</p>
+<p>くだらないやりとりに EeePC はうんざりする。「君がそうであることを祈るよ。そろそろ Spacsmacs の設定記録を作ろうか」</p>
+<h1><a class="anchor" aria-hidden="true" id="インストール"></a><a href="#インストール" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>インストール</h1>
+<p>「インストールの方法については前にもやったんだけど」「ほう」「いちおう復習ね」</p>
+<p><br></p>
+<pre><code class="hljs">git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+</code></pre>
+<p>「もしコマンドの意味がわからなかったら，ダウンロードしたファイルを解凍してフォルダ名を &quot;.emacs.d&quot; にすれば良いです」「これだけか？」「うん」「Mac や Windows は」「Mac もこれでいい。Windows は <a href="https://www49.atwiki.jp/ntemacs/pages/69.html">Windows Subsystem for Linux</a> を先に学んだほうがいい」「Spacemacs は」「先に学んだほうがいい」「Sp」「先に学んだほうがいい」「どうしても説明したくないんだな…」</p>
+<h1><a class="anchor" aria-hidden="true" id="emacsd-private-japanese-packagesel"></a><a href="#emacsd-private-japanese-packagesel" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>.emacs.d/private/japanese/packages.el</h1>
+<p>「なんと!」「ん？」「Spacemacs には!」「おう」「<a href="https://github.com/kenjimyzk/spacemacs-japanese">日本語用の設定</a>を作成された方がおられます!」「おおー!」「ぱんぱかぱーん!」「いやはや，素晴らしい」「package.el をダウンロードしたら，.emacs.d/private 内に japanese フォルダを作って入れてください」</p>
+<p><br>
+「あ，ひとつ注意!」「何だ」「migemo の場所は使ってる Linux によって違う」「migemo か…」EeePC は <a href="https://jamcha-aa.github.io/Emacs-tutorial/18.html">過去の理不尽な仕打ち</a> を思い出し，声が低くなる。</p>
+<p>「Ubuntu の場合はそのままでいいんだけど，たとえば私が ThinkPad に入れてた Manjaro の場合は&quot;/usr/share/migemo/utf-8/migemo-dict&quot; にあるので，各自 package.el を書き換えてください」</p>
+<h1><a class="anchor" aria-hidden="true" id="spacemacs-用のコマンド-2-種"></a><a href="#spacemacs-用のコマンド-2-種" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>.spacemacs 用のコマンド 2 種</h1>
+<p>「普通の Emacs だと.emacs.d/init.el で設定するんだけど，Spacemacs はホームフォルダにある.spacemacs を編集する」「ふむ」「知っておくと便利なコマンドが 2 種類あるので紹介します」</p>
+<ul>
+<li>.spacemacs を開く: <code>SPC f e d</code></li>
+<li>.spacemacs を再読み込みする: <code>SPC f e R</code> (R は大文字)</li>
+</ul>
+<h1><a class="anchor" aria-hidden="true" id="dotspacemacs-configuration-layers"></a><a href="#dotspacemacs-configuration-layers" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>dotspacemacs-configuration-layers</h1>
+<p>「.spacemacs を開くと最初の方にこの章の見出しと同じ項目があります」「ほう」「コメントアウトして再読み込みすると，必要な機能を勝手にインストールしてくれる」「便利だな」「さっき日本語設定のファイルを入れたでしょ？」「ああ」「それもここに追加する」「なるほど」「たとえばこんな感じ」</p>
+<pre><code class="hljs">   dotspacemacs-configuration-layers
+'(
+  javascript
+  ;; ----------------------------------------------------------------
+  ;; Example of useful layers you may want to use right away.
+  ;; Uncomment some layer names and press &lt;SPC f e R&gt; (Vim style) or
+  ;; &lt;M-m f e R&gt; (Emacs style) to install them.
+  ;; ----------------------------------------------------------------
+  helm
+  auto-completion
+  better-defaults
+  emacs-lisp
+  git
+  markdown
+  org
+  (shell :variables
+          shell-default-height 30
+          shell-default-position 'bottom)
+  spell-checking
+  syntax-checking
+  version-control
+  japanese
+  )
+</code></pre>
+<h1><a class="anchor" aria-hidden="true" id="dotspacemacs-additional-packages"></a><a href="#dotspacemacs-additional-packages" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>dotspacemacs-additional-packages</h1>
+<p>「パッケージを個別に入れたいときはここに書けばインストールしてくれる。ただし melpa とかに登録したもの限定」「自作のプログラムはどうするんだ？」「このあと説明するよ」「おう」</p>
+<pre><code class="hljs">dotspacemacs-additional-packages '(
+                                twittering-mode
+                                wc-mode
+                                yatex
+                                exwm
+                                switch-window
+                                )
+</code></pre>
+<p>「ひとつ言い訳」「何だ」「Spacemacs にはウィンドウを移動するための<a href="https://github.com/abo-abo/ace-window">ace-window</a>が入っています」「ふむ」「なぜ機能がかぶる<a href="https://github.com/dimitri/switch-window">switch-window</a>を入れているのか」「うむ」「ace-window は今開いているバッファにショートカットキーを表示するんだけど，<a href="https://github.com/ch11ng/exwm">EXWM</a>はその上に Nautilus とか Firefox とかを表示するので，キーが背後に隠れちゃって見えない。switch-window は画面を隠してショートカットキーだけ表示するから平気」</p>
+<h1><a class="anchor" aria-hidden="true" id="dotspacemacs-editing-style"></a><a href="#dotspacemacs-editing-style" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>dotspacemacs-editing-style</h1>
+<p>「インストール時にたずねられるんだけど，ここで変えることもできます。emacs, vim, hybrid の三種」</p>
+<h1><a class="anchor" aria-hidden="true" id="dotspacemacs-default-font"></a><a href="#dotspacemacs-default-font" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>dotspacemacs-default-font</h1>
+<p>「フォントはここで変えます。デフォルトは Source Code Pro」「君は？」「<a href="https://github.com/jamcha-aa/KonG">私が小説書くために作ったやつ</a>」</p>
+<h1><a class="anchor" aria-hidden="true" id="dotspacemacs-user-config"></a><a href="#dotspacemacs-user-config" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>dotspacemacs/user-config</h1>
+<p>「Emacs の設定とか自作プログラムはここに書く。ゴリゴリ書きたいならレイヤーを作ったほうがよさそう」「レイヤー？」「設定集みたいなもの。上にあった helm とか javascript とかがそう」「ふつうの書き方とは違うのか？」「少し違う，けど，ほとんど書けない私でも理解できるからだいじょうぶ!」「わかった」</p>
+<h1><a class="anchor" aria-hidden="true" id="そして逆襲してくるもの"></a><a href="#そして逆襲してくるもの" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>そして逆襲してくるもの</h1>
+<p>「こんなものかな」「これだけか？」「だいたいね。だって，Spacemacs ってもともと入れてすぐ使えるようになってるものだし」</p>
+<p>「…」EeePC が突然黙りこんだ。その様子から，意図を察した私は知らないふりをした。やや時間があって，EeePC が我慢できずに言う。</p>
+<p>「私に入れる予定はないか…？」</p>
+<p>予想どおりだ。私はここぞとばかりに腕組みをして悩むふりをする。「うーん，重いからなあー」「い，いくつか設定を切っても，だめか」「うーん，どうかなあ。必要な機能ばかりだしなー」</p>
+<p>「そうか…」</p>
+<p>珍しくしおらしい様子の EeePC に私は吹きだす。「ふふ，冗談だよ」「え？」「実は君のためにいろいろ調べておいたんだ」「そうなのか？」「うん。<a href="https://www.linuxmint.com/download_lmde.php">Linux Mint Debian Edition 3</a>の正式版がリリースされたら試してみようね」「それ，君が以前，私に入れようとしていたやつじゃないか」「そう。EXWM を使う予定だから，見た目はこれまでと変わらないと思うけど」</p>
+<p>私が今でも気にかけていることに，EeePC は喜びを隠しきれずに言う。「…ありがとう。私のために。うれしいよ」</p>
+<p>そのとき，ThinkPad の画面が灯った。ターミナルに出力されているのは…</p>
+<p>「Docusaurus がまた攻めてきた!」「なにっ」「すぐに ThinkPad を元に戻さなきゃ…」</p>
+<p>ひとつのミスが命取りになる。私は EeePC と相談しながら慎重に ThinkPad のキーボードを叩いていった。</p>
+<p>-- 了 --</p>
+<p><br>
+<br>
+(c) 2018 jamcha (<a href="mailto:jamcha.aa@gmail.com">jamcha.aa@gmail.com</a>).</p>
+<p><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="cc by-sa"></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/Spacemacs-Guide/docs/04.html">← 04 - 手術が終わるまで待つ気分</a></div></div></div><nav class="onPageNav"></nav></div></div></body></html>
