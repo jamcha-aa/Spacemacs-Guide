@@ -80,6 +80,7 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href={docUrl('01.html', language)}>読む</Button>
             <Button href={'https://github.com/jamcha-aa/Spacemacs-Guide/'}>GitHub</Button>
+            <Button href={'https://jamcha-aa.github.io/About/'}>作品一覧</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -101,12 +102,10 @@ class Index extends React.Component {
 スマホの場合は画面左上の「×」で目次の表示/非表示ができます。
 
 Spacemacsの設定方法だけ知りたい方は [05 - 惑星防備録](https://jamcha-aa.github.io/Spacemacs-Guide/docs/05.html) をご覧ください。
-`}</MarkdownBlock>
-              <p></p>
-              <a className="button" href={`https://jamcha-aa.github.io/About/`}> 作品一覧 </a>
-              <p></p>
-              <MarkdownBlock>{`
+
 Copyright (c) 2018 jamcha (jamcha.aa@gmail.com).
+
+[![Built with Spacemacs](https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg)](http://spacemacs.org)
 
 `}</MarkdownBlock>
               </div>
