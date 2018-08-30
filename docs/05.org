@@ -9,7 +9,7 @@ sidebar_label: 05 - 惑星防備録
 ---
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&subset=japanese');
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
 </style>
 
   「ねえ，作品のタイトルなんだけど」
@@ -143,6 +143,8 @@ sidebar_label: 05 - 惑星防備録
 
    <br>
    <br>
-   (c) 2018 jamcha (jamcha.aa@gmail.com).
+  (c) 2018 jamcha.
 
-   ![[https://i.creativecommons.org/l/by-sa/4.0/88x31.png][cc by-sa]]
+  ![[https://services.nexodyne.com/email/icon/DmmOkiL%252B.Lhw/Owdx44Y%253D/R01haWw%253D/0/image.png][mail]]
+  
+  ![[https://i.creativecommons.org/l/by-sa/4.0/88x31.png][cc by-sa]]
