@@ -8,6 +8,10 @@ title: 01 - いじわるな気分
 sidebar_label: 01 - いじわるな気分
 ---
 
+<style>
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&subset=japanese');
+</style>
+
   ![[./assets/spacemacs-logo.svg?sanitize=true][spacemacs-logo]]
 
   (c) [[https://github.com/nashamri/spacemacs-logo][nashamri]]
