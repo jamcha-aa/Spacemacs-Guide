@@ -78,11 +78,3 @@ sidebar_label: 03 - いじる気分
   「では自己評価プロセスの許可を申請します。評価プロセスの階層を決定してください」  
   「三人寄れば文殊の知恵っていうから，3 + 1 で 4 段階でいいよ」  
   「了解しました。自己評価プロセスを起動します」
-
-  <br>
-  <br>
-  (c) 2018 jamcha.
-
-  ![[./assets/mail.png][mail]]
-
-  ![[https://i.creativecommons.org/l/by-sa/4.0/88x31.png][cc by-sa]]

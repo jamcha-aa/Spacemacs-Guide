@@ -19,7 +19,19 @@ class Footer extends React.Component {
 
     render() {
         const currentYear = new Date().getFullYear();
-        return ([]);
+        return (
+                <footer className="nav-footer" id="footer">
+                <center>
+                <section className="copyright">{this.props.config.copyright}</section>
+                <img
+            src="https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+            alt="cc by-sa"
+            width="88"
+            height="31"
+                />
+                </center>
+                </footer>
+        );
     }
 }
 
