@@ -65,10 +65,7 @@ const siteConfig = {
   },*/
 
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
-  copyright:
-    'Copyright © ' +
-    new Date().getFullYear() +
-    ' Your Name or Your Company Name',
+  copyright: `(c) 2018 jamcha (jamcha.aa@gmail.com).`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
