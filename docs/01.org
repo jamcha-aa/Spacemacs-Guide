@@ -8,10 +8,6 @@ title: 01 - いじわるな気分
 sidebar_label: 01 - いじわるな気分
 ---
 
-<style>
-@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
-</style>
-
   ![[./assets/spacemacs-logo.svg?sanitize=true][spacemacs-logo]]
 
   (c) [[https://github.com/nashamri/spacemacs-logo][nashamri]]
