@@ -8,10 +8,6 @@ title: 02 - 脳をいじられる気分
 sidebar_label: 02 - 脳をいじられる気分
 ---
 
-<style>
-@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
-</style>
-
   「おかしい」私が Spacemacs を操作しながらうめく。だが私が苦しそうな顔をしながらパソコンを操作するのはいつものことなので，ThinkPad は何も言わない。
 
   「おかしいな。もう少し手こずると思っていたんだけど」
